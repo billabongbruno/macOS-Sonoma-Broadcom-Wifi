@@ -1,6 +1,10 @@
 # macOS-Sonoma-Broadcom-Wifi
 A collection of instructions and links to make Broadcom Wifi work natively again under macOS 14 (Sonoma Beta at the time of writing), until such time as proper support is added.
-This process involves disabling SIP, so be warned.
+<br/>
+<br/>
+**This process involves disabling SIP, so be warned.**
+<br/>
+<br/>
 Below is a description of what to do.
 
 <br/>
@@ -10,7 +14,7 @@ Below is a description of what to do.
 **STEP 1:**
 Disable Gatekeeper
 
-Under Terminal run, the following:
+Under Terminal, run the following:
 
 ```
 sudo spctl --master-disable
@@ -31,7 +35,6 @@ From this repo (with the normal EFI structure, if you prefer):
 [Here](https://github.com/billabongbruno/macOS-Sonoma-Broadcom-Wifi/releases/download/v14.b2.1.0/Sonoma_BCM94360NG_Wifi_Pack.zip)
 
 <br/>
-
 <br/>
 
 **STEP 3:**
@@ -158,6 +161,14 @@ Download and run OCLP and install Root Patch for Modern Wifi (Needed after every
 
 From source:
 [OCLP 0.6.8](https://github.com/dortania/OpenCore-Legacy-Patcher/releases/download/0.6.8/OpenCore-Patcher-GUI.app.zip)
+
+<br/>
+
+<br/>
+
+**STEP 6:**
+Reboot and check for native Wifi. If it's not working, simply reset your NVRAM and check again.
+
 
 <br/>
 

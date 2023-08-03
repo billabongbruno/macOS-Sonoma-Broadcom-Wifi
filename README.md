@@ -1,5 +1,5 @@
 # macOS-Sonoma-Broadcom-Wifi
-A collection of instructions and links to make Broadcom Wifi work natively again under macOS 14 (Sonoma Beta at the time of writing), until such time as proper support is added.
+A collection of instructions and links to make Broadcom Wifi work natively again under macOS 14 (Sonoma Beta 2at the time of writing), until such a time as proper support is added.
 <br/>
 <br/>
 **This process involves disabling SIP, so be warned.**

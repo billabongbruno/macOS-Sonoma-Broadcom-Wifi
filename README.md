@@ -7,7 +7,7 @@ Below is a description of what to do.
 
 <br/>
 
-STEP 1:
+**STEP 1:**
 Disable Gatekeeper
 
 Under Terminal run, the following:
@@ -19,7 +19,7 @@ sudo spctl --master-disable
 
 <br/>
 
-STEP 2:
+**STEP 2:**
 Extract and add these Kexts to your EFI folder:
 
 From source:
@@ -34,7 +34,7 @@ From this repo (with the normal EFI structure, if you prefer):
 
 <br/>
 
-STEP 3:
+**STEP 3:**
 Edit your config.plist so that it reflects these changes (from whatever your values are):
 
 3.1 - Add the new kexts to your existing ones (Kernel - Add)
@@ -143,7 +143,7 @@ Edit your config.plist so that it reflects these changes (from whatever your val
 
 <br/>
 
-STEP 4:
+**STEP 4:**
 Download and install Kernel Debug Kit:
 
 From source:
@@ -153,7 +153,7 @@ From source:
 
 <br/>
 
-STEP 5:
+**STEP 5:**
 Download and run OCLP and install Root Patch for Modern Wifi (Needed after every update):
 
 From source:

@@ -1,5 +1,5 @@
 # macOS-Sonoma-Broadcom-Wifi
-A collection of instructions and links to make Broadcom Wifi work natively again under macOS 14 (Sonoma Beta 2at the time of writing), until such a time as proper support is added.
+A collection of instructions and links to make Broadcom Wifi work natively again under macOS 14 (Sonoma Official Release at the time of editing), until such a time as proper support is added.
 <br/>
 <br/>
 **This process involves disabling SIP, so be warned.**
@@ -150,7 +150,7 @@ Edit your config.plist so that it reflects these changes (from whatever your val
 Download and install Kernel Debug Kit:
 
 From source:
-[Kernel Debug Kit](https://github.com/dortania/KdkSupportPkg/releases/download/23A5301h/Kernel_Debug_Kit_14.0_build_23A5301h.dmg)
+[Kernel Debug Kit](https://github.com/dortania/KdkSupportPkg/releases/download/23B5056e/Kernel_Debug_Kit_14.1_build_23B5056e.dmg)
 
 <br/>
 
@@ -160,7 +160,7 @@ From source:
 Download and run OCLP and install Root Patch for Modern Wifi (Needed after every update):
 
 From source:
-[OCLP 0.6.8](https://github.com/dortania/OpenCore-Legacy-Patcher/releases/download/0.6.8/OpenCore-Patcher-GUI.app.zip)
+[OCLP 1.0.1](https://github.com/dortania/OpenCore-Legacy-Patcher/releases/download/1.0.1/OpenCore-Patcher-GUI.app.zip)
 
 <br/>
 

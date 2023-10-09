@@ -32,7 +32,7 @@ and
 [IO80211FamilyLegacy.kext](https://github.com/dortania/OpenCore-Legacy-Patcher/blob/e21efa975c0cf228cb36e81a974bc6b4c27c7807/payloads/Kexts/Wifi/IO80211FamilyLegacy-v1.0.0.zip)
 
 From this repo (with the normal EFI structure, if you prefer):
-[Here](https://github.com/billabongbruno/macOS-Sonoma-Broadcom-Wifi/releases/download/v14.b2.1.0/Sonoma_BCM94360NG_Wifi_Pack.zip)
+[Here](https://github.com/billabongbruno/macOS-Sonoma-Broadcom-Wifi/releases/download/v14.OCLP.1.0.1.KDK.14.1.23b5056e/Sonoma_BCM94360NG_Wifi_Pack.zip)
 
 <br/>
 <br/>
